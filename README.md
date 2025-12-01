@@ -1,11 +1,13 @@
-# Number Guessing Game
+# Number Guessing Game 
 
-A simple command-line number guessing game written in Python.
+A small command-line number guessing game written in Python.
 
-Features:
-- Difficulty levels (easy, medium, hard)
-- Input validation (no crashes on bad input)
-- Per-player win/loss stats saved in `scores.txt`
+## Features
+
+- Difficulty levels: Easy / Medium / Hard
+- Input validation (no crashes on invalid input)
+- Per-player win/loss stats stored in a `scores.txt` file
+- Clean structure using functions
 
 ## How to run
 
