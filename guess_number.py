@@ -44,7 +44,9 @@ def play_round():
     attempts_used = 0
 
     print("I'll give you a guess...")
-
+    
+    guess = None
+    
     while attempts_used < max_attempts:
 
         #GUESS VALIDATION
