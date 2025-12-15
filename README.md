@@ -11,8 +11,6 @@ I built this as one of my very first programming projects to practice:
 
 I used an AI assistant (ChatGPT) to help me understand concepts, debug errors, and refactor the code, but the logic and structure are things I worked through myself step by step.
 
----
-
 ## Game Description
 
 The game:
@@ -31,8 +29,6 @@ The game:
    - total **losses**
 
 Player stats are stored in a simple `scores.txt` file so they persist between runs.
-
----
 
 ## Main Features
 
@@ -57,13 +53,10 @@ Player stats are stored in a simple `scores.txt` file so they persist between ru
     - `yes` – play another round
     - `no` – exit the game
 
----
-
 ## Project Structure
 
 Typical structure of the CLI project:
 
-```text
-guessnumber_cli/
-├─ guess_number.py    # main Python script (CLI game)
-└─ scores.txt         # created/updated at runtime to store stats
+  guessnumber_cli/
+  ├─ guess_number.py    # main Python script (CLI game)
+  └─ scores.txt         # created/updated at runtime to store stats
